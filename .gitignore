@@ -1,0 +1,8 @@
+# Ignorar variáveis de ambiente (senhas)
+.env
+
+# Ignorar a base de dados inteira (obrigatório)
+db_data/
+
+# Ignorar a instalação base do WordPress (para não enviar milhares de ficheiros desnecessários)
+wp_data/

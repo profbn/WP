@@ -21,10 +21,10 @@ O projeto utiliza um ficheiro `.env` para gerir as variáveis de ambiente[cite: 
 
 | Serviço | Porta Externa | IP Estático na Rede |
 | :--- | :--- | :--- |
-| **WordPress** | `8080`[cite: 3, 4] | `172.20.0.3`[cite: 3, 4] |
-| **phpMyAdmin** | `8081`[cite: 3, 4] | `172.20.0.4`[cite: 3, 4] |
-| **MariaDB** | `8082`[cite: 3, 4] | `172.20.0.2`[cite: 3, 4] |
-| **Code-Server** | `8083`[cite: 3, 4] | `172.20.0.5`[cite: 3, 4] |
+| **WordPress** | `80`[cite: 3, 4] | `172.20.0.3`[cite: 3, 4] |
+| **phpMyAdmin** | `8080`[cite: 3, 4] | `172.20.0.4`[cite: 3, 4] |
+| **MariaDB** | `3306`[cite: 3, 4] | `172.20.0.2`[cite: 3, 4] |
+| **Code-Server** | `8443`[cite: 3, 4] | `172.20.0.5`[cite: 3, 4] |
 
 > **Nota:** Os dados persistentes do WordPress e do MariaDB são armazenados nos diretórios `wp_data/` e `db_data/`, respetivamente, os quais estão ignorados no controlo de versões[cite: 2, 5].
 
